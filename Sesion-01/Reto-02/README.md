@@ -1,15 +1,30 @@
-# Reto # - Nombre del reto
+# Reto 02: Creacion, Instalacion y Configuracion de AWS CLI
+
+![Alt text](https://miro.medium.com/max/1017/0*tHezTGVhyqoXDtKu.png?raw=true "DevOps")
+
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+-  Configurar tu cuenta de AWS CLI y configurar perfiles.
 
-## Desarrollo
+---
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+## Requerimientos:
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+---
 
+- Navegador web y cuaderno o aplicación para tomar notas.
+
+---
+
+## Desarrollo:
+
+1.- Instala en tu local AWS CLI, puedes guiarte con el siguiente link:
+https://docs.aws.amazon.com/es_es/cli/latest/userguide/cli-chap-configure.html
+
+2.- Crea o inicia sesion en tu cuenta de https://aws.amazon.com/console/
+
+3.- Configura tu `profile` de `IAM` siguiendo el siguiente link:
+https://docs.aws.amazon.com/es_es/cli/latest/userguide/cli-configure-quickstart.html
+
+---

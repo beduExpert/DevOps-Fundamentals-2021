@@ -1,15 +1,33 @@
-# Reto # - Nombre del reto
+# Reto 03: Instalacion y Configuracion de Docker
+
+![Alt text](https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png?raw=true "DevOps")
+
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+-  Configurar tu Docker en local.
 
-## Desarrollo
+---
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+## Requerimientos:
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+---
 
+- Navegador web y cuaderno o aplicación para tomar notas.
+
+---
+
+## Desarrollo:
+
+1.- Instala en tu local Docker, puedes guiarte con el siguiente link:
+https://www.docker.com/get-started
+
+2.- Para validar tu instalacion ejecuta el siguiente comando
+
+```docker --version```
+
+3.- Crea tu primer Container con el siguiente comando:
+
+```docker run hello-world```
+
+---
