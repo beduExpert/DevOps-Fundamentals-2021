@@ -1,6 +1,4 @@
 ## Flujos de DevOps y manejo de código 🤖
----
-
 
 
 ### En ciclo de vida de desarrollo de software se muestra en la siguiente imagen
