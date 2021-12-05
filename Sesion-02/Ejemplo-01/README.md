@@ -36,7 +36,7 @@ git clone https://github.com/beduExpert/DevOps-Fundamentals-2021.git
 ---
 
 ## Flujo de Trabajo:
----
+
 </br>
 
 Tu repositorio local esta compuesto por tres "árboles" administrados por git. El primero es tu ***Directorio*** de trabajo que contiene los archivos, el segundo es el Index que actua como una zona intermedia, y el último es el ***HEAD*** que apunta al último ***commit*** realizado.
@@ -76,7 +76,7 @@ Ahora el archivo está incluído en el ***HEAD***, pero aún no en tu repositori
 
 ---
 ## Subir tus cambios
----
+
 </br>
 
 Tus cambios están ahora en el ***HEAD*** de tu copia local. Para enviar estos cambios a tu repositorio remoto ejecuta:
@@ -108,7 +108,7 @@ Ahora podrás subir tus cambios al repositorio remoto seleccionado.
 
 ---
 ## Creación de ramas
----
+
 </br>
 
 Las ramas son utilizadas para desarrollar funcionalidades aisladas unas de otras. La rama master/main es la rama **"por defecto"** cuando creas un repositorio. Crea nuevas ramas durante el desarrollo y podrás fusionar el nuevo código a la rama principal.
@@ -158,7 +158,7 @@ git push origin mi/rama
 
 ---
 ## Actualizar y Fusionar
----
+
 
 </br>
 Para actualizar tu repositorio local al commit más nuevo, ejecuta:
@@ -190,4 +190,3 @@ git add miArchivo.txt
 
 ---
 **`NOS VEMOS EN EL RETO 01`**
----

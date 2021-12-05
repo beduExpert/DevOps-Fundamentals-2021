@@ -443,15 +443,14 @@ git rebase master
 ~~~
 </br>
 
-
+---
 
 ## Implementar un flujo con Git-Flow.
 
----
 <span style="color:orange">*¿Cómo funciona GitFlow?.*</span>
 
 
----
+
 </br>
 La imagen que se muestra a continuacion nos muestra  ventajas y desvantajas de GitFlow
 
@@ -485,7 +484,7 @@ La imagen que se muestra a continuacion nos muestra  ventajas y desvantajas de G
 
 ---
 ## Implementar un flujo con Trunk-based development
----
+
 </br>
 
 Un  trunk-based development es una estrategia de Git donde existe un trunk(un branch principal, usualmente llamado master/main) en el cual todo el equipo colabora he integra directamente (hace push), siguiendo estas consideraciones:
@@ -527,7 +526,7 @@ Trunk based development nos permite ser más efectivos y versátiles al momento 
 
 </br>
 
-
+---
 **`NOS VEMOS EN EL POSTWORD`**
 
----
+
