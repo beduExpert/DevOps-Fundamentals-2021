@@ -1,15 +1,41 @@
-# Reto # - Nombre del reto
+## `RETO 1`
 
-## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
-## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+</br>
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+
+![Alt text](../Reto-01/assets/git.png?raw=true "DevOps")
+
+
+</br> 
+
+
+**`Responde las siguientes preguntas `**
+
+
+</br>
+
+
+
+***1.Crear un repositorio nuevo de git.***
+
+</br>
+
+***2.Realiza un Clon de un repositorio  que ya existe.***
+
+</br>
+
+***3. Crea un archivo nuevo dentro del repositorio.***
+
+</br>
+
+***4. realiza el COMMIT junto con un comentario.***
+
+</br>
+
+***5. Empuja tus cambios a la rama principal.***
+
+</br>
 
