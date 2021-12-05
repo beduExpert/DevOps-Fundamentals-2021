@@ -528,8 +528,6 @@ Trunk based development nos permite ser más efectivos y versátiles al momento 
 </br>
 
 
-[**`NOS VEMOS EN EL POSTWORD`**](./Ejemplo-01)
+**`NOS VEMOS EN EL POSTWORD`**
 
 ---
-
-
