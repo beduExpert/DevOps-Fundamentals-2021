@@ -1,15 +1,44 @@
-# Reto # - Nombre del reto
+## `RETO 2` ⚙️
 
-## Objetivo
+</br>
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
-## Desarrollo
+![Alt text](../Reto-02/assets/gitf1.png?raw=true "DevOps")
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+</br> 
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+## 🎯 Descripcion:
+#### **` En este reto debemos utilizar GitFlow, te sugerimos repasar los apuntes del Work y el ejemplo 2 📝`**
 
+
+
+</br>
+
+***1. Menciona los pasos para instalar Git Flow dependiendo tu plataforma***
+
+</br>
+
+***2. Inicia un repositorio (git init)***
+
+
+</br>
+
+***3. Inicia git flow***
+
+</br>
+
+***4. Crea una Rama de fusión***
+
+</br>
+
+***5. Finaliza la Rama de fusión creada***
+
+</br>
+
+***6. Publica la Rama de fusión creada***
+
+</br>
+
+***7. Finalizar la rama, logrando NO obtener como resultado: (Tagging failed)***
+
+</br>
