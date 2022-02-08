@@ -27,7 +27,7 @@ Como ejemplo, la estructura de archivos puede quedar de la siguiente forma:
  ┗ 📄README.md
  ```
  
- Donde tenemos una carpate para los archivos de terraform y una carpeta para cada uno de nuestros contenedores / servicios. Esto facilitará la construcción de los contenedores y de terraform.
+ Donde tenemos una carpeta para los archivos de terraform y una carpeta para cada uno de nuestros contenedores / servicios. Esto facilitará la construcción de los contenedores y de terraform.
 
  ### 2) Define el contenedor para MySQL
  Utiliza la imágen oficial para MySQL: [Mysql / Official Image](https://hub.docker.com/_/mysql).
