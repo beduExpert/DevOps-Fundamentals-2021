@@ -1,15 +1,19 @@
-# Reto # - Nombre del reto
+# Reto 1 - Obtén el uso de disco del proveedor de AWS.
 
-## Objetivo
+## Objetivo 🎯
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Evaluar el uso en disco de un proveedor mayor.
 
-## Desarrollo
+## Desarrollo 📝
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+* Crea una nueva carpeta para proyecto de **tf**: `mkdir aws-tf`.
+* Cambia tu carpeta de trabajo a la nueva carpeta: `cd aws-tf`.
+* Crea un archivo `main.tf` con el proveedor de AWS.
+* Inicializa Terraform: `terraform init`.
+* Ejecuta el comando para obtener el uso en disco:
+    * Windows cmd: `dir /s .terraform`
+    * MacOS, GitBash y Linux: `du -shc .terraform`
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Comparte tus resultados con el instructor.
 
+> 💡 [Solución](./resp.md).
