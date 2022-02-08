@@ -30,3 +30,7 @@ override.tf.json
 # No agregar configuraciones personales de CLI
 .terraformrc
 terraform.rc
+
+# Generados por Python pip
+Pipfile
+Pipfile.lock
