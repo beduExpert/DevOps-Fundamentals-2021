@@ -107,8 +107,6 @@ Cuando se crean microservicios utilizando recursos sin servidor, estos problemas
 
 ---
 
-<img src="images/chaomi.png" align="right" height="110"> 
-
 ### 3. Postwork 📝
 
 Encuentra las indicaciones y consejos para reflejar los avances de tu proyecto de este módulo.
