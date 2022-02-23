@@ -62,7 +62,7 @@ Explore el patrón Back-ends para front-ends, que crea servicios de back-end ind
 ### Tema 2. Microservicios con App Engine 
 Usa el entorno estándar de App Engine para proporcionar balanceo de cargas integrado, ajuste de escala automático, registro y supervisión completamente integrados, y redundancia regional.
 
-<img src="assets/google-cloud-microservices-with-app-engine.png" style="background-color: white">
+<img src="assets/google-cloud-microservices-with-app-engine.jpp">
 
 Microservicios completamente administrados
 El entorno estándar de App Engine proporciona balanceo de cargas integrado, ajuste de escala automático, registros y supervisión completamente integrados y redundancia regional. No hay infraestructura que administrar.
