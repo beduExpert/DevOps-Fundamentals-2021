@@ -57,7 +57,7 @@ Explore el patrón Back-ends para front-ends, que crea servicios de back-end ind
 
 ---
 
-<img src="images/structure.png" align="right" height="90"> 
+<img src="../assets/images/structure.png" align="right" height="90"> 
 
 ### Tema 2. Microservicios con App Engine 
 Usa el entorno estándar de App Engine para proporcionar balanceo de cargas integrado, ajuste de escala automático, registro y supervisión completamente integrados, y redundancia regional.
