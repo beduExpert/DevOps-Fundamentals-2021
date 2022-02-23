@@ -12,7 +12,7 @@
 En este work abordaremos ejemplos de patrones y soluciones en las nubes de Azure, Google Cloud y AWS. 
 
 ---
-### Tema 1. Modelos de diseño de microservicios
+### Ejemplo 1. Modelos de diseño de microservicios con Azure
 El objetivo de los microservicios es aumentar la velocidad de las versiones de la aplicación mediante la descomposición de la aplicación en servicios autónomos pequeños que se pueden implementar de forma independiente. Una arquitectura de microservicios también conlleva algunos desafíos. Los modelos de diseño que se muestran aquí pueden ayudar a mitigar estos desafíos.
 
 <img src="assets/azure-microservices-patterns.png">
@@ -57,7 +57,7 @@ Explore el patrón Back-ends para front-ends, que crea servicios de back-end ind
 
 ---
 
-<img src="../assets/images/structure.png" align="right" height="90"> 
+<img src="../assets/structure.png" align="right" height="90"> 
 
 ### Tema 2. Microservicios con App Engine 
 Usa el entorno estándar de App Engine para proporcionar balanceo de cargas integrado, ajuste de escala automático, registro y supervisión completamente integrados, y redundancia regional.
