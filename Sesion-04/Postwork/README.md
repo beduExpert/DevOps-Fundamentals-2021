@@ -10,7 +10,7 @@
 ### <b>1) Integrar el microservicio</b>
 Integra tu microservicio con su base de datos, el microservicio puede ser en tu lenguaje de preferencia, [aquí tienes](../Postwork) un ejemplo que puedes usar para basar tu propio microservicio.
 
-Organiza tu myAPI para que cada microservicio tenga su propia base de datos (un servidor mysql puede alojar varias bases de datos).
+Organiza tu myAPI para que cada microservicio tenga su propia base de datos (un servidor mysql puede alojar varias bases de datos) y su propio repositorio.
  
 ### <b>2) Despliega tu proyecto para pruebas</b>
 Mediante `terraform apply`, despliega tu proyecto que ya contiene el microservicio.
