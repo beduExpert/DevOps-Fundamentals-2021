@@ -18,7 +18,7 @@ Mediante `terraform apply`, despliega tu proyecto que ya contiene el microservic
 ### <b>3) Crea un nuevo microservicio para manejo de usuarios</b>
 Escribe nuevas para crear, consultar, borrar usuarios y hacer login.
 
-### <b>4) Agrega un nuevo contenedor para correr Jenkins</b>
+### <b>4) Crea las peticiones Postman de tu microservicio.</b>
 Define tus nuevas peticiones en Postman para que puedas probar tu servicio nuevo.
 
 ### <b>5) Agrega un nuevo contenedor para correr Jenkins</b>
