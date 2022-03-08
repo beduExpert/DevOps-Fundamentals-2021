@@ -1,4 +1,4 @@
-# Ejemplo 1 - Archivos que para .gitignore
+# Ejemplo 3. Arquitectura de Microservicios con AWS Lambdas
 
 ## Objetivos 🎯
 
