@@ -2,7 +2,7 @@
 
 ## Objetivos 🎯
 
-* * Analizar bloque a bloque el diagrama de arquitectura en AWS con Lambdas.
+* Analizar bloque a bloque el diagrama de arquitectura en AWS con Lambdas.
 
 ## Desarrollo 📝
 

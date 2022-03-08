@@ -1,4 +1,4 @@
-# Ejemplo 1 - Modelos de diseño de microservicios con Azure
+# Ejemplo 1. - Modelos de diseño de microservicios con Azure
 
 ## Objetivos 🎯
 

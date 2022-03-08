@@ -12,7 +12,7 @@
 En este work abordaremos ejemplos de patrones y soluciones en las nubes de Azure, Google Cloud y AWS. Tendremos dos retos a realizar.
 
 ---
-### Ejemplo 1. Modelos de diseño de microservicios con Azure
+### Ejemplo 1. Modelos de diseño de microservicios con Azure.
 
 El objetivo de los microservicios es aumentar la velocidad de las versiones de la aplicación mediante la descomposición de la aplicación en servicios autónomos pequeños que se pueden implementar de forma independiente. Una arquitectura de microservicios también conlleva algunos desafíos. Los modelos de diseño que se muestran aquí pueden ayudar a mitigar estos desafíos.
 
@@ -20,13 +20,13 @@ El objetivo de los microservicios es aumentar la velocidad de las versiones de l
 
 ---
 
-### Ejemplo 2. Microservicios con App Engine 
+### Ejemplo 2. Microservicios con App Engine.
 Usa el entorno estándar de App Engine para proporcionar balanceo de cargas integrado, ajuste de escala automático, registro y supervisión completamente integrados, y redundancia regional.
 * [Ejemplo 2.](./Ejemplo-02/README.md)
 
 ---
 
-### Ejemplo 3. Arquitectura de Microservicios con Amazon AWS
+### Ejemplo 3. Arquitectura de Microservicios con AWS Lambdas.
 Amazon nos provee una serie de servicios interesantes para construir arquitecturas basadas en microservicios: Lambda, EC2 con VPC y Fargate (para trabajar con contenedores y Kubernetes), comúnmente denominado ECS (Amazon Elastic Container Service).
 * [Ejemplo 3.](./Ejemplo-03/README.md)
 ---

@@ -1,8 +1,8 @@
-# Ejemplo s - Microservicios con App Engine 
+# Ejemplo 2 - Microservicios con App Engine 
 
 ## Objetivos 🎯
 
-* * Analizar bloque a bloque el diagrama de arquitectura en Google Cloud.
+* Analizar bloque a bloque el diagrama de arquitectura en Google Cloud.
 
 ## Desarrollo 📝
 
