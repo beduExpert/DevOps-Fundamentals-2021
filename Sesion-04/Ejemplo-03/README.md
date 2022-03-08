@@ -12,7 +12,7 @@ La ventaja de este tipo de arquitectura en la nube es evidente, nos permite cent
 
     HTTPS://AWS.AMAZON.COM/ES/SERVERLESS/
 
-<img src="assets/aws-architecture-diagram-lambdas.jpg"  style="background-color: white">
+<img src="../assets/aws-architecture-diagram-lambdas.jpg"  style="background-color: white">
 
 <p align = "center"><i>
 Patrón arquitectónico para microservicios con Lambda. Fuente: Amazon AWS. https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/microservices-with-lambda.html

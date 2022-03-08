@@ -1,6 +1,6 @@
 
 
-<img src="assets/google-cloud-microservices-with-app-engine.png">
+<img src="../assets/google-cloud-microservices-with-app-engine.png">
 
 Microservicios completamente administrados
 El entorno estándar de App Engine proporciona balanceo de cargas integrado, ajuste de escala automático, registros y supervisión completamente integrados y redundancia regional. No hay infraestructura que administrar.
