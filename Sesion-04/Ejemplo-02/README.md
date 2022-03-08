@@ -1,4 +1,10 @@
+# Ejemplo 1 - Archivos que para .gitignore
 
+## Objetivos 🎯
+
+* * Analizar bloque a bloque el diagrama de arquitectura en Google Cloud.
+
+## Desarrollo 📝
 
 <img src="../assets/google-cloud-microservices-with-app-engine.png">
 

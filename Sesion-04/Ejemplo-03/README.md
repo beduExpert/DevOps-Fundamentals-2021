@@ -1,3 +1,11 @@
+# Ejemplo 1 - Archivos que para .gitignore
+
+## Objetivos 🎯
+
+* * Analizar bloque a bloque el diagrama de arquitectura en AWS con Lambdas.
+
+## Desarrollo 📝
+
 En este artículo me centraré en explicar el funcionamiento de Lambda a través de un ejemplo concreto y cómo nos podría ayudar a migrar aplicaciones monolíticas en sendas plataformas en la nube basadas en arquitecturas de microservicios.
 
 Un poco de teoría (que siempre ayuda)

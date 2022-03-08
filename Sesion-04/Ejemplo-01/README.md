@@ -1,3 +1,11 @@
+# Ejemplo 1 - Archivos que para .gitignore
+
+## Objetivos 🎯
+
+* Analizar bloque a bloque el diagrama de arquitectura en Azure.
+
+## Desarrollo 📝
+
 <img src="../assets/azure-microservices-patterns.png">
 
 El patrón [Ambassador](https://docs.microsoft.com/es-es/azure/architecture/patterns/ambassador) se puede usar para la descarga de tareas comunes de conectividad de cliente, como la supervisión, el registro, el enrutamiento, la seguridad (por ejemplo, TLS) de una manera independiente del lenguaje. Los servicios de Ambassador se suelen implementar como un sidecar (consulte a continuación).
