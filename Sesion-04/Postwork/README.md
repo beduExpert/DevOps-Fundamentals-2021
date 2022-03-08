@@ -19,7 +19,7 @@ Mediante `terraform apply`, despliega tu proyecto que ya contiene el microservic
 Escribe nuevas para crear, consultar, borrar usuarios y hacer login.
 
 ### <b>4) Agrega un nuevo contenedor para correr Jenkins</b>
-Extiende tu proyecto terraform para agregar un nuevo contenedor para correr Jenkins, exponiendo el puerto 8080.
+Extiende tu proyecto terraform para provisionar un nuevo contenedor para correr Jenkins, exponiendo el puerto 8080.
 
 ### <b>5) Crea las peticiones Postman de tu microservicio.</b>
 Define tus nuevas peticiones en Postman para que puedas probar tu servicio nuevo.
