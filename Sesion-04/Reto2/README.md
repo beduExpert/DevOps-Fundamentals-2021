@@ -1,4 +1,4 @@
-# Reto 1 - Comunicaciones entre contenedors.
+# Reto 2 - Comunicaciones entre contenedors.
 
 ## Objetivo 🎯
 * Aplicar los conocimientos adquiridos para trasladar una aplicación web monolítica a microservicios.
