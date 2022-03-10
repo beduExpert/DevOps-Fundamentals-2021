@@ -1,16 +1,18 @@
-## Sesión 6: Nombre de sesión 🤖
+## Sesión 6: CI/CD con Jenkins y Groovy 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- Mostrar cómo se usa Jenkins para orquestar la creación de una aplicación Java simple con Maven.
+- Integración de repositorio dentro de un flujo CI/CD
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+Se presenta la simulación de un caso en el que el desarrollador de Java que usa Maven y es nuevo en los conceptos de CI/CD, o si está familiarizado con estos conceptos pero no sabe cómo implementar la creación de su aplicación usando Jenkins, requiere que los cambios que realice sean fluidos y no deba preocuparse por que su código funcione en cualquier equipo.
+
+La aplicación Java simple (que obtendrá de un repositorio de muestra en GitHub) genera la cadena "¡Hola mundo!" y se acompaña de un par de pruebas unitarias para comprobar que la aplicación principal funciona como se esperaba. Los resultados de estas pruebas se guardan en una carpeta local que simularemos como nuestro Deploy.
 
 ---
 
@@ -18,7 +20,7 @@ Android Studio te ayudará a desarrollar tu app más productivamente a escala. A
 
 #### <ins>Tema 1</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
+Se detalla un escenario en el que el equipo de desarrollo y el equipo de operaciones no pueden comunicarse entre ellos, demostrando el porqué surge y la importancia del flujo del equipo DevOps.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
 
@@ -28,7 +30,7 @@ Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, 
 
 #### <ins>Tema 2</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Una vez que se haya comprendido una problemática cotidiana en el desarrollo de TI, hay que indagar ahora en el CI/CD, cuál es la estructura de un flujo ideal, los stages que debe tener, así como un reto verdadero reto de crear tu propio pipeline con un plugin que obtenga el código de Github.
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
 - [**`RETO 1`**](./Reto-01)
@@ -38,7 +40,7 @@ Una vez que el proyecto está creado, la estructura o forma en la que se organiz
 
 #### <ins>Tema 3</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
+Ahora que podemos definir por nuestra cuenta los jobs, debemos definir una parte importante para agilizar los cambios del desarrollador, que es automatizar al grado en el que al hacer un cambio en Github, este sea reconocido por nuestro job y se ejecute automáticamente. 
 
 **Nota al Experto:**
   
@@ -50,13 +52,8 @@ Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un 
 
 #### <ins>Tema 4</ins>
 
-Basta de emulaciones, ahora veamos como funciona en el mundo real. Nuestra app, por muy sencilla que sea ya está lista para ser instalada en un dispositivo móvil y para verla en acción.
+Llegar a este punto hace de tí una persona dedicada y te has demostrado que puedes lograr nuevos retos. Eso significa que puedes ampliar el panorama del flujo de integración. Es importante conocer qué herramientas se pueden agregar dentro de nuestros jobs para reforzar la integridad del código de nuestro equipo, reducir bugs, errores y que el ambiente en general sea seguro.
 
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 3`**](./Reto-03)
----
 
 ### 3. Postwork :memo:
 
