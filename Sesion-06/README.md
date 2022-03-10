@@ -42,12 +42,6 @@ Una vez que se haya comprendido una problemática cotidiana en el desarrollo de 
 
 Ahora que podemos definir por nuestra cuenta los jobs, debemos definir una parte importante para agilizar los cambios del desarrollador, que es automatizar al grado en el que al hacer un cambio en Github, este sea reconocido por nuestro job y se ejecute automáticamente. 
 
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 2`**](./Reto-02)
----
-
 <img src="images/chaomi.png" align="right" height="110"> 
 
 #### <ins>Tema 4</ins>
