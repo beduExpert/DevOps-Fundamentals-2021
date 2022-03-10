@@ -32,4 +32,6 @@ Parte 2:
 ![image](https://user-images.githubusercontent.com/59855822/157607575-cfdabf90-c4b8-4f08-9370-87a1425789c9.png)
 
 
-![image](https://user-images.githubusercontent.com/59855822/157606614-b8c3d433-1119-414c-a09f-54e9f68e32cb.png)
+No olvides revisar los logs! ;)
+![image](https://user-images.githubusercontent.com/59855822/157608082-7a0a2801-2849-4f55-9c72-e01512c1ea65.png)
+
