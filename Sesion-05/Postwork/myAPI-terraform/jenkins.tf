@@ -34,6 +34,9 @@ resource "docker_container" "jenkins" {
     container_path = "/var/jenkins_home"
     read_only = false
   }
+  provisioner "local-exec" {
+    command = "docker exec -d jenkins chown jenkins:jenkins /var/run/docker.sock"
+  }
 }
 
 output "jenkins_ip" { value = "JENKINS_IP=${docker_container.jenkins.ip_address}" }
