@@ -1,15 +1,14 @@
-# Reto # - Nombre del reto
+# Reto 3 - Automatizar el inicio del projecto via SCM.
 
-## Objetivo
+## Objetivos 🎯
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Crea un projecto que utilize el plugin de SVC
+* Aplica una contraseña que te sea familar
 
-## Desarrollo
+## Desarrollo 📝
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Por lo general queremos correr el pipeline para integrar, y correr pruebas para validar nuestro projecto cada que subimos nuevo codigo al repositorio.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+>Crea un projecto que monitoree el repositorio por cambios cada 5 minutos.
 
+[Ver solución](./solucion.md)

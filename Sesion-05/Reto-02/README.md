@@ -1,15 +1,21 @@
-# Reto # - Nombre del reto
+# Reto 2 - Configura variables de entorno globales.
 
-## Objetivo
+## Objetivo 🎯
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Registrar una variable de entorno global.
+* Utiliza una variable de entorno global en un projecto.
 
-## Desarrollo
+## Desarrollo 📝
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Cuando que queremos reutilizar funcionalidad, podemos crear unidades funcionales parametrizadas, en términos de Jenkins variables de entorno globales, variables de entorno injectadas al projecto y projectos parametrizados.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Otras veces es por que necesitamos un valor de la salida de un programa (ej. Terraform) para ingresarlo en nuestro Jenkins pipeline.
 
+Cualquiera que sea tu motivo, utilizar variables de entorno globales es la forma más simple de pasar valores a un projecto.
+
+💡 Si no conoces sobre variables de entorno en linuxm, consulta [esta página](https://www.hostinger.es/tutoriales/variables-de-entorno-linux-como-leerlas-y-configurarlas-vps).
+
+
+>Crea un projecto que utilice una variable de entorno global.
+
+[Ver solución](./solucion.md)

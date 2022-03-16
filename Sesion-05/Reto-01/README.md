@@ -1,15 +1,14 @@
-# Reto # - Nombre del reto
+# Reto 1 - Crear un usuario en Jenkins.
 
-## Objetivo
+## Objetivos 🎯
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Crea un usuario para ti
+* Aplica una contraseña que te sea familar
 
-## Desarrollo
+## Desarrollo 📝
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Utilizar el usuario admin y la contraseña inicial no siempre es lo ideal. En la mayoría de los casos querrás crear usuarios para dar accesos a diferentes desarrolladores y/o administradores.
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+>Crea un usuario para ti, con una contraseña que te sea familar.
 
+[Ver solución](./solucion.md)
