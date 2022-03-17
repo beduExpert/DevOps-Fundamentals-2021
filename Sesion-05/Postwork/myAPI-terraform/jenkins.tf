@@ -35,7 +35,7 @@ resource "docker_container" "jenkins" {
     read_only = false
   }
   provisioner "local-exec" {
-    command = "docker exec -d jenkins chown jenkins:jenkins /var/run/docker.sock"
+    command = "docker exec -d -u root jenkins chown jenkins:jenkins /var/run/docker.sock"
   }
 }
 
