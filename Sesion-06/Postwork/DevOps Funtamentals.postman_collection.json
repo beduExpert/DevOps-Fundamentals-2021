@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "0a3921c3-c1bb-4b21-8f96-65276914cc20",
+		"name": "DevOps Funtamentals",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "accounts",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/login?user=master&pass=race",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"login"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "master"
+								},
+								{
+									"key": "pass",
+									"value": "race"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get account detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/account?user=master",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"account"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "master"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a new account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/account?user=master&pass=race",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"account"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "master"
+								},
+								{
+									"key": "pass",
+									"value": "race"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete account",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/account?user=master",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"account"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "master"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "books",
+			"item": [
+				{
+					"name": "Get book by isbn",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/book?isbn=0618346252",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"book"
+							],
+							"query": [
+								{
+									"key": "isbn",
+									"value": "0618346252"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/book?isbn=0618346252&title=The Fellowship of the Ring",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"book"
+							],
+							"query": [
+								{
+									"key": "isbn",
+									"value": "0618346252"
+								},
+								{
+									"key": "title",
+									"value": "The Fellowship of the Ring"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a book",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/book?isbn=0618346252",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"book"
+							],
+							"query": [
+								{
+									"key": "isbn",
+									"value": "0618346252"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
