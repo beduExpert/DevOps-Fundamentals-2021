@@ -5,12 +5,14 @@
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- Conocer a profundidad los contenedores con Docker
+- Configuración de herramientas de Test y Seguridad
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+Docker te ayudará a automatizar el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos. 
+
+Por otra parte, dentro del flujo de integración es importante utilizar una plataforma para evaluar código fuente. Hay muchas de software libre y paga, y usan diversas herramientas de análisis estático de código fuente como Checkstyle, PMD o FindBugs para obtener métricas que pueden ayudar a mejorar la calidad del código de un programa. Como DevOps es importante automatizar dichos procesos y notificar anomalías a las áreas hermanas (Desarrollo, Producción y QA).
 
 ---
 
@@ -50,7 +52,7 @@ Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un 
 
 #### <ins>Tema 4</ins>
 
-Basta de emulaciones, ahora veamos como funciona en el mundo real. Nuestra app, por muy sencilla que sea ya está lista para ser instalada en un dispositivo móvil y para verla en acción.
+Unificar los temas vistos hasta el momento. Considerando el pilar fundamental sobre el que se basa el sistema de trabajo es la automatización de todos los procesos que intervienen en el ciclo de vida de una aplicación: integración, pruebas, despliegue, monitorización y operación.
 
 **Nota al Experto:**
   
