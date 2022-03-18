@@ -16,9 +16,11 @@ O de forma gráfica:
 4. Debes asegurarte de que los contenedores que consume tu equipo están corriendo correctamente 
 
 ```docker ps -a```
+
 ```docker container ls```
 
 5. Hay una versión de Docker que no es compatible con un desarrollo de tu equipo, por lo que debes actualizar Docker.
 
-```docker version
-docker upgrade```
+```docker version```
+
+```docker upgrade```
