@@ -20,7 +20,7 @@ Por otra parte, dentro del flujo de integración es importante utilizar una plat
 
 #### <ins>Tema 1</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
+Se detallan los comandos necesarios para poder navegar en un contenedor de imágenes que previamente fueron construidas dentro del flujo de Integración Contínua.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
 
@@ -30,7 +30,7 @@ Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, 
 
 #### <ins>Tema 2</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Después de haber conocido la fuerza que ocupa Jenkins como orquestador dentro del flujo DevOps, es importante integrar herramientas de seguridad de código para que entre muchas otras cosas, la experiencia del cliente sea fiel.
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
 - [**`RETO 1`**](./Reto-01)
@@ -40,12 +40,9 @@ Una vez que el proyecto está creado, la estructura o forma en la que se organiz
 
 #### <ins>Tema 3</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
+Prueba de rendimiento para medir el rendimiento de la aplicación. También puede comparar el rendimiento de la aplicación con una prueba comparativa de rendimiento de línea base como, por ejemplo, los resultados de la última confirmación en la versión principal o en la versión actual.
 
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 2`**](./Reto-02)
+- [**`EJEMPLO 3`**](./Reto-02)
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 
@@ -54,10 +51,6 @@ Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un 
 
 Unificar los temas vistos hasta el momento. Considerando el pilar fundamental sobre el que se basa el sistema de trabajo es la automatización de todos los procesos que intervienen en el ciclo de vida de una aplicación: integración, pruebas, despliegue, monitorización y operación.
 
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 3`**](./Reto-03)
 ---
 
 ### 3. Postwork :memo:
