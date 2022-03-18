@@ -15,3 +15,7 @@ Ejecutar comandos Docker y navegar dentro de repositorios con la seguridad de qu
 4. Debes asegurarte de que los contenedores que consume tu equipo están corriendo correctamente 
 
 5. Hay una versión de Docker que no es compatible con un desarrollo de tu equipo, por lo que debes actualizar Docker.
+
+
+## Resultado
+> 💡 [Propuesta solución](./psolv.md).
