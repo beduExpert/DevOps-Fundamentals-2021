@@ -14,6 +14,7 @@ Aquí se debe agregar el desarrollo del ejemplo
 1. Descarga la imagen preestablecida de sonarqube
 
 ```docker pull sonarqube```
+
 ![image](https://user-images.githubusercontent.com/59855822/158932428-1b5c0ee7-6d16-4156-8ccb-cfdadb2fa809.png)
 
 2. Descarga la imagen preestablecida de sonarqube
