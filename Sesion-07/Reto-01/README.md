@@ -1,15 +1,17 @@
-# Reto # - Nombre del reto
+# Reto 1 - Nombre del reto
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+Ejecutar comandos Docker y navegar dentro de repositorios con la seguridad de que obtendremos información valiosa para ejecutar procesos DevOps.
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+1. Ejecutar un comando que te permita conocer las imágenes en Docker
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+2. Ejecutar un comando que te permita arrancar la imagen con el ID af604b0fe940
 
+3. Se descubrió una vulnerabilidad en una librería de Java, por lo que debes apagar el contenedor con ID e31f2e856b6f
+
+4. Debes asegurarte de que los contenedores que consume tu equipo están corriendo correctamente 
+
+5. Hay una versión de Docker que no es compatible con un desarrollo de tu equipo, por lo que debes actualizar Docker.
