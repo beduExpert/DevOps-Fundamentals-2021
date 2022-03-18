@@ -1,5 +1,7 @@
 1. Ejecutar un comando que te permita conocer las imágenes en Docker
 docker images
+O de forma gráfica: 
+![image](https://user-images.githubusercontent.com/59855822/158928674-b181d2aa-21cd-4b86-9ee8-ea504005a399.png)
 
 2. Ejecutar un comando que te permita arrancar la imagen con el ID af604b0fe940
 docker run af604b0fe940
