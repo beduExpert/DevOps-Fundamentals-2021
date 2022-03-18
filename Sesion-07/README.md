@@ -23,7 +23,7 @@ Por otra parte, dentro del flujo de integración es importante utilizar una plat
 Se detallan los comandos necesarios para poder navegar en un contenedor de imágenes que previamente fueron construidas dentro del flujo de Integración Contínua.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
-
+- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
@@ -33,7 +33,7 @@ Se detallan los comandos necesarios para poder navegar en un contenedor de imág
 Después de haber conocido la fuerza que ocupa Jenkins como orquestador dentro del flujo DevOps, es importante integrar herramientas de seguridad de código para que entre muchas otras cosas, la experiencia del cliente sea fiel.
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
+
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
