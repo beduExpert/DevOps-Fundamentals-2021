@@ -1,4 +1,4 @@
-# Reto 1 - Nombre del reto
+# Reto 1 - Docker en consola y modo gráfico
 
 ## Objetivo
 
