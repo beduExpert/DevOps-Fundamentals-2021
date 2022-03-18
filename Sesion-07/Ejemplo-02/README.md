@@ -32,7 +32,9 @@ para confirmar que se está ejecutando el contenedor
 ![image](https://user-images.githubusercontent.com/59855822/158933676-aff09561-2ece-448d-b65c-a82c8363e092.png)
 
 5. Ingresa con las credenciales preestablecidas:
+
 USUARIO: admin
+
 CONTRASEÑA: admin
 
 6. Al clickear el botón "LogIn" ingresarás automáticamente a otra pestaña donde podrás utilizar la contraseña que desees y clickea el botón "Update"
