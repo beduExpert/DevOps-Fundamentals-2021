@@ -2,7 +2,7 @@
 
 ```docker images```
 
-O de forma gráfica: 
+O de forma gráfica en el botón "Images": 
 
 ![image](https://user-images.githubusercontent.com/59855822/158928674-b181d2aa-21cd-4b86-9ee8-ea504005a399.png)
 
