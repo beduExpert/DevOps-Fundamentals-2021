@@ -5,8 +5,9 @@
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- Instalación y configuración de herramientas de monitoreo y mantenibilidad.
+- Implementar pruebas de endpoints con Postman.
+- Estableecer colecciones de Postman para pruebas de servicios.
 
 ### 2. Contenido :blue_book:
 
