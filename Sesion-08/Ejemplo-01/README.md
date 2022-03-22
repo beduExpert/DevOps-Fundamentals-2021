@@ -35,5 +35,21 @@ Contraseña: admin
 
 ![image](https://user-images.githubusercontent.com/59855822/159404009-ed664bd8-352d-48ca-993c-c2a905aef06f.png)
 
-    
-    
+6. En la parte izquierda del panel, hay un ícono de "+" y una ventana titulada "Dashboards" presiónala para que podamos crear una nueva gráfica indicadora.
+
+![image](https://user-images.githubusercontent.com/59855822/159404285-a75a6cc6-e5e2-4338-ba0b-dfb6495f7ed2.png)
+
+7. En el siguiente cuadro de diálogo, presiona "Add a new panel"
+
+![image](https://user-images.githubusercontent.com/59855822/159404360-aef2ccc3-7f57-4a2f-a1d4-81bc1cec39d7.png)
+
+8. Asegúrate de configurar la siguientes opciones como se muestran en la imagen
+
+![image](https://user-images.githubusercontent.com/59855822/159404500-a73202df-fedb-4eae-8206-2a139c3f2c1f.png)
+
+9. ¡Felicidades! Has creador tu primer Dashboard. Si quieres indagar más allá, puedes configurar el tiempo que desees entre ejecuciones (rango de tiempo), quiénes ejecutaron, quiénes logearon, entre otras opciones. Todo esto dentro del ícono del engrane.
+
+![image](https://user-images.githubusercontent.com/59855822/159404589-48f4d63b-d8f6-420f-9856-83f578d28fb0.png)
+
+
+
