@@ -34,6 +34,7 @@ Tener un sistema de monitoreo integrado en el ciclo de vida de DevOps permite a 
 Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
+- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
