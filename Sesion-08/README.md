@@ -42,7 +42,6 @@ Una vez que el proyecto está creado, la estructura o forma en la que se organiz
 #### <ins>Tema 3</ins>
 
 Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
----
 
 <img src="images/chaomi.png" align="right" height="110"> 
 
