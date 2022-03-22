@@ -1,4 +1,4 @@
-## Sesión 8: Nombre de sesión 🤖
+## Sesión 8: Gestión, mantenibilidad y monitoreo 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
