@@ -7,11 +7,13 @@
 
 - Instalación y configuración de herramientas de monitoreo y mantenibilidad.
 - Implementar pruebas de endpoints con Postman.
-- Estableecer colecciones de Postman para pruebas de servicios.
+- Establecer colecciones de Postman para pruebas de servicios.
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+Con la implementación continua, toda la automatización en la cadena de herramientas de DevOps mueve el código a producción tan pronto como pasa todas sus pruebas. Pero la organización no puede simplemente confiar en una caja negra que implementa código automáticamente, esperando que funcione. Ahí es donde entran en juego los sistemas de monitorización.
+
+Los sistemas de monitoreo implementados correctamente brindan información relevante, lo que ayuda a las empresas a tener una visión clara de cada parte de la pila de aplicaciones, gracias al código impulsado por API escrito por desarrolladores. Además, muchos sistemas de monitorización se benefician de los enlaces de código en la propia lógica de la aplicación.
 
 ---
 
@@ -19,7 +21,7 @@ Android Studio te ayudará a desarrollar tu app más productivamente a escala. A
 
 #### <ins>Tema 1</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
+Tener un sistema de monitoreo integrado en el ciclo de vida de DevOps permite a las organizaciones rastrear mejor los indicadores clave de rendimiento del negocio y monitorear las métricas comerciales en producción.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
 
