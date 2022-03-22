@@ -27,7 +27,13 @@ Como ya hemos visto, las bondades de Docker nos permiten instalar de manera senc
 
 ![image](https://user-images.githubusercontent.com/59855822/159403740-18499a0e-a712-4e0e-beff-a5b9f367df11.png)
 
-Utiliza las credenciales *Usuario*: admin Contraseña: admin
-    
+Utiliza las credenciales:
+Usuario: admin 
+Contraseña: admin
+
+5. Después te pedirá utilizar una nueva contraseña, elige la que desees y podrás ingresar al Home de Grafana.
+
+![image](https://user-images.githubusercontent.com/59855822/159404009-ed664bd8-352d-48ca-993c-c2a905aef06f.png)
+
     
     
