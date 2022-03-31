@@ -13,4 +13,4 @@ Probar con anterioridad, ayuda a que los errores no lleguen hasta el ambiente de
 * Crea pruebas manuales con Postman y pruebas automatizadas en el CICD.
 
 
-
+💡 Consulta [en esta carpeta](./) los archivos para la solución del postwork de esta sesión. Están separados en tres carpetas que representan tres repositorios diferentes.
