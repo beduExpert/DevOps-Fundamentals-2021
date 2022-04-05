@@ -42,7 +42,7 @@ Después de haber conocido la fuerza que ocupa Jenkins como orquestador dentro d
 
 Prueba de rendimiento para medir el rendimiento de la aplicación. También puede comparar el rendimiento de la aplicación con una prueba comparativa de rendimiento de línea base como, por ejemplo, los resultados de la última confirmación en la versión principal o en la versión actual.
 
-- [**`EJEMPLO 3`**](./Reto-02)
+- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 
