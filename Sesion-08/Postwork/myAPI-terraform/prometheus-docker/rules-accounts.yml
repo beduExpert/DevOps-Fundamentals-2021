@@ -1,0 +1,10 @@
+groups:
+- name: accounts
+  rules:
+  - alert: ContainerDown
+    expr: up{job="accounts"} == 0
+    for: 0m
+    labels:
+      severity: critical
+    annotations:
+      summary: Accounts target down

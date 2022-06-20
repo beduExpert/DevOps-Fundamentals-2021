@@ -1,0 +1,10 @@
+groups:
+- name: books
+  rules:
+  - alert: ContainerDown
+    expr: up{job="books"} == 0
+    for: 0m
+    labels:
+      severity: critical
+    annotations:
+      summary: Books target down

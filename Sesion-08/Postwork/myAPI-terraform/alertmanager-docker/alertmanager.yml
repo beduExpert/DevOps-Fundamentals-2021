@@ -1,0 +1,32 @@
+route:
+  receiver: 'default-receiver'
+  continue: true
+  routes:
+    - matchers: 
+        - job=~"accounts"
+      receiver: 'jenkins-accounts'
+      repeat_interval: 10m
+      group_by: [ job ]
+
+    - matchers:
+      - job=~"books"
+      receiver: 'jenkins-books'
+      repeat_interval: 10m
+      group_by: [ job ]
+
+receivers:
+  - name: 'default-receiver'
+    webhook_configs:
+      - url: "http://noop"
+        send_resolved: false
+        max_alerts: 1
+  - name: 'jenkins-accounts'
+    webhook_configs:
+      - url: "http://host.docker.internal:8080/generic-webhook-trigger/invoke?token=accounts"
+        send_resolved: false
+        max_alerts: 1
+  - name: 'jenkins-books'
+    webhook_configs:
+      - url: "http://host.docker.internal:8080/generic-webhook-trigger/invoke?token=books"
+        send_resolved: false
+        max_alerts: 1
