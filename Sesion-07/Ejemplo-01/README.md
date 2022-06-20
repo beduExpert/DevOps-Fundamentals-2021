@@ -2,7 +2,9 @@
 
 ## Objetivo
 
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Instalar y configurar herramientas de monitoreo y mantenibilidad.
+* Implementar pruebas de alarmas y KPIs en contenedores.
+
 
 ## Desarrollo
 NOTA: Recuerdo que para todos los casos, puedes utilizar ```--help``` para orientarte en caso de tener alguna duda específica, escritura para ejecución de comandos, etc.
