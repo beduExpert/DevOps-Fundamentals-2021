@@ -1,19 +1,18 @@
-## Sesión 8: Gestión, mantenibilidad y monitoreo 🤖
+## Sesión 8: DevOps en la práctica 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Instalación y configuración de herramientas de monitoreo y mantenibilidad.
-- Implementar pruebas de endpoints con Postman.
-- Establecer colecciones de Postman para pruebas de servicios.
+- Conocer a profundidad los contenedores con Docker
+- Configuración de herramientas de Test y Seguridad
 
 ### 2. Contenido :blue_book:
 
-Con la implementación continua, toda la automatización en la cadena de herramientas de DevOps mueve el código a producción tan pronto como pasa todas sus pruebas. Pero la organización no puede simplemente confiar en una caja negra que implementa código automáticamente, esperando que funcione. Ahí es donde entran en juego los sistemas de monitorización.
+Docker te ayudará a automatizar el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos. 
 
-Los sistemas de monitoreo implementados correctamente brindan información relevante, lo que ayuda a las empresas a tener una visión clara de cada parte de la pila de aplicaciones, gracias al código impulsado por API escrito por desarrolladores. Además, muchos sistemas de monitorización se benefician de los enlaces de código en la propia lógica de la aplicación.
+Por otra parte, dentro del flujo de integración es importante utilizar una plataforma para evaluar código fuente. Hay muchas de software libre y paga, y usan diversas herramientas de análisis estático de código fuente como Checkstyle, PMD o FindBugs para obtener métricas que pueden ayudar a mejorar la calidad del código de un programa. Como DevOps es importante automatizar dichos procesos y notificar anomalías a las áreas hermanas (Desarrollo, Producción y QA).
 
 ---
 
@@ -21,29 +20,38 @@ Los sistemas de monitoreo implementados correctamente brindan información relev
 
 #### <ins>Tema 1</ins>
 
-Tener un sistema de monitoreo integrado en el ciclo de vida de DevOps permite a las organizaciones rastrear mejor los indicadores clave de rendimiento del negocio y monitorear las métricas comerciales en producción.
+Se detallan los comandos necesarios para poder navegar en un contenedor de imágenes que previamente fueron construidas dentro del flujo de Integración Contínua.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
-
+- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
 
 #### <ins>Tema 2</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Después de haber conocido la fuerza que ocupa Jenkins como orquestador dentro del flujo DevOps, es importante integrar herramientas de seguridad de código para que entre muchas otras cosas, la experiencia del cliente sea fiel.
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
+
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
 #### <ins>Tema 3</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
+Prueba de rendimiento para medir el rendimiento de la aplicación. También puede comparar el rendimiento de la aplicación con una prueba comparativa de rendimiento de línea base como, por ejemplo, los resultados de la última confirmación en la versión principal o en la versión actual.
+
+- [**`RETO 1`**](./Reto-01)
+---
 
 <img src="images/chaomi.png" align="right" height="110"> 
+
+#### <ins>Tema 4</ins>
+
+Unificar los temas vistos hasta el momento. Considerando el pilar fundamental sobre el que se basa el sistema de trabajo es la automatización de todos los procesos que intervienen en el ciclo de vida de una aplicación: integración, pruebas, despliegue, monitorización y operación.
+
+---
 
 ### 3. Postwork :memo:
 

@@ -1,61 +1,55 @@
-# Ejemplo 1 - Navegación Docker
+# Ejemplo 1 - Grafana
 
 ## Objetivo
 
-* Instalar y configurar herramientas de monitoreo y mantenibilidad.
-* Implementar pruebas de alarmas y KPIs en contenedores.
-
+* Instalar, configurar y conocer sobre la herramienta de monitoreo Grafana.
 
 ## Desarrollo
-NOTA: Recuerdo que para todos los casos, puedes utilizar ```--help``` para orientarte en caso de tener alguna duda específica, escritura para ejecución de comandos, etc.
-![image](https://user-images.githubusercontent.com/59855822/158926513-f89bf6c4-c0d2-442e-a7e1-bf2a6e12a392.png)
 
-1. Inicializa la herramienta Docker Desktop y utiliza el comando ```docker ps -a``` para conocer las imágenes que tienes descargadas 
-![image](https://user-images.githubusercontent.com/59855822/158924075-0657ab2c-a01d-4996-aa29-cfe1d57bf262.png)
-Intenta el mismo proceso con el comando ```docker container ls``` y observarás que ambas tienen la misma utilidad y dan la misma información.
-Recuerda que las imagenes Docker son plantillas (que incluyen una aplicación, los binarios y las librerias necesarias) que se utilizan para construir contenedores Docker y ejecutarlos (los contenedores ejecutarán una imagen previamente compilada). También podemos decir que las imagenes Docker son instancias de un contenedor.
+Como ya hemos visto, las bondades de Docker nos permiten instalar de manera sencilla aplicaciones que naturalmente nos llevarían más tiempo por el lenguaje de compilación, etc. Entonces, hagámos uso de Docker para nuestra instalación!
 
-2. Para crear una imagen a partir de un Dockerfile, utiliza el comando 
- ```docker build <path>```
- Puede existir el caso donde es un directorio interno o bien, que deseas obtener del repositorio público en internet, para dicho caso, esta es la manera correcta:
- ```docker build https://github.com/docker/rootfs.git#container:docker```
+1- Al ejecutar el comando ```docker pull grafana/grafana```, automáticamente nos llevará a descargar la imagen más actual de Grafana del Docker Hub.
+    Se mostrará algo como se muestra a continuación y espera a que termine la descarga.
+    
+![image](https://user-images.githubusercontent.com/59855822/159402549-dc41fea1-3847-4b69-8926-6a319835fd36.png)
 
-3. Para eliminar una imagen, utiliza el comando: 
-  ```docker rm [OPTIONS] CONTAINER [CONTAINER...]```
-Para ejemplos de usos de este comando, consulta la sección de ejemplos a continuación.
---force , -f		  Forza remover el contenedor corriendo
---link , -l		    Elimina el link especificado
---volumes , -v		Elimina volúmenes anónimos asociados al contenedor
-Por ejemplo, si estás seguro de eliminar y no quieres una segunda verificación, agrega -f a la ejecución:
-```docker rm nombreimagen -f```
-En lugar del nombre de la imagen, también puedes utilizar el CONTAINER ID!
+2- Utiliza el comando ```docker run -d --name=grafana -p 3000:3000 grafana/grafana``` para echar a andar la imagen de Grafana.
+    Recuerda que el puerto por default es el 3000, pero puedes utilizar cualquier otro que tengas libre en tu ordenador.
+    Si todo salió correctamente, únicamente mostrará el id del contenedor como se muestra a continuación: 
 
-4. Inicia un contenedor:
-```docker run [OPTIONS] IMAGE [COMMAND] [ARG...]```
-El comando primero crea una capa de contenedor grabable sobre la imagen especificada y luego la inicia usando el comando especificado.
+![image](https://user-images.githubusercontent.com/59855822/159403217-58294350-9dd9-4457-b620-f1a82fb3f06a.png)
 
-5. Buscar imágenes del repositorio oficial de Docker (Docker Hub)
-``` docker search [OPTIONS] TERM```
+3. Revisa en la ventana del Docker Desktop que el contenedor haya corrido correctamente con el puerto y ruta elegidos.
 
-6. Arrancar un contenedor
-``` docker start <mi_contenedor>```
+![image](https://user-images.githubusercontent.com/59855822/159403417-ba93a68f-793c-4c01-ad46-aaabac99465d.png)
 
-7. Detener mi contenedor
-``` docker stop <mi_contenedor>```
+4. Ingresa con tu navegador a ```http://localhost:3000/login``` y podrás observar que el ambiente de Grafana se encuentra en tu ordenador.
 
-8. Mostrar Imágenes Docker
-``` docker images```
-El listado que aparezca será únicamente con las imágenes dentro de tu espacio Docker, puedes verificarlo con el ambiente gráfico.
-![image](https://user-images.githubusercontent.com/59855822/158927124-e436dcd6-cf58-45a0-b6fb-a8a149c188c1.png)
+![image](https://user-images.githubusercontent.com/59855822/159403740-18499a0e-a712-4e0e-beff-a5b9f367df11.png)
 
-9. Crear una etiqueta TARGET_IMAGE que haga referencia a SOURCE_IMAGE
-``` docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]```
-Un nombre de imagen se compone de componentes de nombre separados por barras, opcionalmente con el prefijo de un nombre de host de registro. El nombre de host debe cumplir con las reglas estándar de DNS, pero no puede contener guiones bajos. Si hay un nombre de host, opcionalmente puede ir seguido de un número de puerto en el formato: 8080. Si no está presente, el comando utiliza el registro público de Docker ubicado en registration-1.docker.io de forma predeterminada. Los componentes del nombre pueden contener letras minúsculas, dígitos y separadores. Un separador se define como un punto, uno o dos guiones bajos o uno o más guiones. Un componente de nombre no puede comenzar ni terminar con un separador.
+Utiliza las credenciales:
+Usuario: admin 
+Contraseña: admin
 
-10. Conocer la versión de Docker con la que se está trabajando
-``` docker version```
+5. Después te pedirá utilizar una nueva contraseña, elige la que desees y podrás ingresar al Home de Grafana.
 
-11. Actualizar versión de Docker a la última disponible
-``` docker update```
+![image](https://user-images.githubusercontent.com/59855822/159404009-ed664bd8-352d-48ca-993c-c2a905aef06f.png)
+
+6. En la parte izquierda del panel, hay un ícono de "+" y una ventana titulada "Dashboards" presiónala para que podamos crear una nueva gráfica indicadora.
+
+![image](https://user-images.githubusercontent.com/59855822/159404285-a75a6cc6-e5e2-4338-ba0b-dfb6495f7ed2.png)
+
+7. En el siguiente cuadro de diálogo, presiona "Add a new panel"
+
+![image](https://user-images.githubusercontent.com/59855822/159404360-aef2ccc3-7f57-4a2f-a1d4-81bc1cec39d7.png)
+
+8. Asegúrate de configurar la siguientes opciones como se muestran en la imagen
+
+![image](https://user-images.githubusercontent.com/59855822/159404500-a73202df-fedb-4eae-8206-2a139c3f2c1f.png)
+
+9. ¡Felicidades! Has creador tu primer Dashboard. Si quieres indagar más allá, puedes configurar el tiempo que desees entre ejecuciones (rango de tiempo), quiénes ejecutaron, quiénes logearon, entre otras opciones. Todo esto dentro del ícono del engrane.
+
+![image](https://user-images.githubusercontent.com/59855822/159404589-48f4d63b-d8f6-420f-9856-83f578d28fb0.png)
+
 
 

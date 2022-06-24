@@ -1,23 +1,27 @@
-1. Crea un nuevo dashboard genérico
+1. Ejecutar un comando que te permita conocer las imágenes en Docker
 
-```+ -> Dashboard```
+```docker images```
 
-![image](https://user-images.githubusercontent.com/59855822/159540105-accb9cc7-8cd6-41b5-a1d5-7ed811a0b7fe.png)
+O de forma gráfica en el botón "Images": 
 
-```Add a new panel```
+![image](https://user-images.githubusercontent.com/59855822/158928674-b181d2aa-21cd-4b86-9ee8-ea504005a399.png)
 
-![image](https://user-images.githubusercontent.com/59855822/159540188-8ff4512a-27e0-4cf1-95c7-a427c0457811.png)
+2. Ejecutar un comando que te permita arrancar la imagen con el ID af604b0fe940
 
-```Configuración: *Query Random Walk, *Fill y *las últimas 6 horas```
+```docker run af604b0fe940```
 
-![image](https://user-images.githubusercontent.com/59855822/159540441-cf2ca389-a8d7-4d14-bfbe-3e7a2b49fda5.png)
+3. Se descubrió una vulnerabilidad en una librería de Java, por lo que debes apagar el contenedor con ID e31f2e856b6f
 
+```docker stop e31f2e856b6f```
 
-2. Nombralo "My first Dashboard"
+4. Debes asegurarte de que los contenedores que consume tu equipo están corriendo correctamente 
 
-```Dale nombre en 'Title' y luego el botón 'Apply' ```
+```docker ps -a```
 
-![image](https://user-images.githubusercontent.com/59855822/159540665-31174b53-39ca-4d18-a312-25f50ad3f860.png)
+```docker container ls```
 
+5. Hay una versión de Docker que no es compatible con un desarrollo de tu equipo, por lo que debes actualizar Docker.
 
-¡FELICIDADES! HAS CREADO TU PRIMER DASHBOARD.
+```docker version```
+
+```docker upgrade```
