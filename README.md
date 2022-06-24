@@ -25,5 +25,5 @@ La capacidad de migrar habilidades de negocios de manera continua se ha converti
 - [`Sesión 04:` Microservicios con contenedores](./Sesion-04)
 - [`Sesión 05:` Integración y entrega continua](./Sesion-05)
 - [`Sesión 06:` CI/CD con Jenkins / testing](./Sesion-06)
-- [`Sesión 07:` DevOps en la práctica](./Sesion-07)
-- [`Sesión 08:` Gestión, mantenibilidad y monitoreo](./Sesion-08)
+- [`Sesión 07:` Gestión, mantenibilidad y monitoreo](./Sesion-07)
+- [`Sesión 08:` DevOps en la práctica](./Sesion-08)
